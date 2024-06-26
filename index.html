@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- public -->
+        <link rel="stylesheet" href="./public/css/style.css">
+        <link rel="stylesheet" href="./public/css/normalize.css">
+        <script type="text/javascript" src="./public/js/script.js"></script>
+    
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/0fce3c0945.js" crossorigin="anonymous"></script>
+    
+        <!-- icon -->
+        <link rel="icon" href="./public/img/favicon.png">
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Source+Code+Pro:wght@200;400;600;800;900&display=swap" rel="stylesheet">
+    
+    <title>TITLE</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href=""><img src="./public/img/logo.png" class="logo"></a>
+                <p>TITLE</p>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#tech">TECHNOLOGY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <a href="javascript:void(0);" class="burger-menu" onclick="burger_menu()"><i class="fas fa-bars"></i></a>
+        </div>
+
+        <div class="burger-links" id="_burger-links" style="transform: translateX(100%);">
+            <i onclick="burger_menu()" class="fa-solid fa-xmark"></i>
+            <ul>
+                <li><a onclick="burger_menu()" href="#">HOME</a></li>
+                <li><a onclick="burger_menu()" href="#about">ABOUT US</a></li>
+                <li><a onclick="burger_menu()" href="#tech">TECHNOLOGY</a></li>
+                <li><a onclick="burger_menu()" href="#contact">CONTACTO</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seccion 1: Intro -->
+        <section class="section-intro">
+            <div class="intro-title">
+                <h2>TITLE</h1>
+                <span class="span-line"></span>
+                <h3>Slogan</h3>
+            </div>
+            <div class="CAMBIAR_NOMBRE"><span></span></div>
+
+        </section>
+
+
+        <!-- Seccion: About -->
+        <section class="section-about" id="about">
+            <div class="about-title title">
+                <h2>ABOUT US</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="about-body">
+                    <img src="./public/img/desktop.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="about-info">
+                <div class="info">
+                    <h4>Mission</h4>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur itaque, sunt nesciunt repellat debitis quos laudantium, qui molestiae tempora incidunt architecto aperiam.</p>
+                </div>
+                <div class="info">
+                    <h4>Ideal</h4>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="info">
+                    <h4>Objective</h4>
+                    <span></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, laborum molestiae reprehenderit sunt, accusamus at mollitia assumenda maxime illum dolore veniam consequuntur impedit ut quaerat architecto tempora beatae qui dolorum.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seccion: Technology -->
+        <section class="section-techno" id="tech">
+            <div class="techno-title title">
+                <h2>TECHNOLOGY</h2>
+                <p>This are some tools and platforms we daily use</p>
+            </div>
+            <div class="techno-body">
+                <div class="technos">
+                    <img src="./public/img/Tecnologias/HTML5.png" id="__img">
+                    <img src="./public/img/Tecnologias/HTML5.png" id="__img">
+                    <img src="./public/img/Tecnologias/HTML5.png" id="__img">
+                </div>
+                <div class="technos">
+                    <img src="./public/img/Tecnologias/HTML5.png" id="__img">
+                    <img src="./public/img/Tecnologias/HTML5.png" id="__img">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seccion: Contact -->
+        <section class="section-contact title" id="contact">
+            <h2>CONTACT</h2>
+            <div class="contact-form">
+                <form action="" method="post">
+                    <input type="text" name="nombre" id="nombre" required placeholder="Full Name *" >
+                    <input type="email" name="email" id="email" required placeholder="Email *">
+                    <textarea name="mensaje" id="mensaje" required placeholder="Message"></textarea>
+                    <button class="enviar-button button" type="submit">SEND</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <div class="footer-contact">
+                <div class="contact-title">
+                    <img src="./public/img/logo.png" alt="">
+                    <p>TITLE</p>
+                </div>
+                <div class="contact-info">
+                    <p>+54 9 (11) 5577 3362</p>
+                    <p>guido.dimascio@gmail.com</p>
+                </div>
+                <div class="contact-social">
+                    <a href="https://www.linkedin.com/in/guidodimascio/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/gdimascio"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Technology</p>
+                <!-- <p>Solutions</p> -->
+                <p>Contact</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTONES -->
+    <div>
+        <a href="https://wa.me/541155773362" target="_blank" class="whatsapp-button">
+            <img src="./public/img/WhatsApp.png" width="60px" alt>
+        </a>
+        <button onclick="topFunction()" id="_top-btn" class="scroll-to-top-button" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+        <script>
+            var mybutton = document.getElementById("_top-btn");
+            window.onscroll = function() {scrollFunction()};
+        </script>
+    </div>
+
+</body>
+</html>
