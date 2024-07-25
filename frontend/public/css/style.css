@@ -477,9 +477,6 @@ footer{
     .section-contact{
         padding: var(--pdd-tp-btt) var(--pdd-VW);
     }
-    .footer{
-        /* padding: var(--pdd-tp-btt) var(--pdd-VW); */
-    }
     .about-body{
         flex-direction: row;
         gap: 30px;
